@@ -29,6 +29,11 @@ var tbody = d3.select("tbody");
       Object.values(dataRow).forEach((val) => {
         let cell = row.append("td");
         cell.text(val);
+        
+        var elem = document.createElement('textarea')
+        elem.innerHTML = val
+        text = elem.value
+        cell.text(text);
       }
       ); 
     });
@@ -51,7 +56,7 @@ var tbody = d3.select("tbody");
       // @NOTE: If no date was entered, then filteredData will
       // just be the original tableData.
     buildTable(filteredData);
-}
+};
 
 //Attach an event to listen for the form button
 d3.selectAll("#filter-btn").on("click", handleClick);
