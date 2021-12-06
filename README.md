@@ -7,11 +7,11 @@ This analysis was conducted in order to add additional multiple search criteria 
 
 When a user accesses the UFOs webpage, they will be greeted with the main webpage display below. 
 
-Insert Image Main
+![Main Page](https://github.com/LMarty22/UFOs/blob/main/static/images/Webpage%20Main.png)
 
 The user from here is able to filter search criteria locategd on the left side of the screen. There are five criterias by which the data can be filted: date, city, state, country and shape of UFO recorded. In the text field there is an example text of how the search criteria must be entered, once the user begins to fill in the desired field the example text is replaced. User must hit "Enter", "Tab" or click outside of the text box in order for the filter to display the requested data. If there is no data matching the input by the user the data display table will be empty. 
 
-Insert Image of Search
+![Search Results](https://github.com/LMarty22/UFOs/blob/main/static/images/Search%20Example.png)
 
 User is able to search the database using a combination of search criteria filters as needed. When more filters are applied, the more specific the data result will be. 
 
